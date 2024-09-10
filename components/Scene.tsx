@@ -4,7 +4,7 @@ import { OrbitControls, useGLTF } from '@react-three/drei';
 import React from 'react';
 
 const Scene = () => {
-  const { scene } = useGLTF('../spaceman1.glb');
+  const { scene } = useGLTF('/spaceman1.glb');
 
   return (
     <Canvas camera={{ position: [-0.5, -1, -8], fov: 50 }}>
