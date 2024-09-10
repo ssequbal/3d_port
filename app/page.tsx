@@ -1,6 +1,4 @@
-import Image from "next/image";
 import Scene from '../components/Scene';
-import ScrollEffect from '../components/ScrollEffect';
 import { StarsBackground } from "@/components/Starsbackground";
 
 export default function Home() {
